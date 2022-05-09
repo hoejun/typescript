@@ -17,3 +17,6 @@ TS > TS compiler > JS > Babel > JS 순서
 바벨 + 타입스크립트코드는 느린 컴파일 시간 개선
 준비가 되었을 때만 타입 오류를 확인하라 ( js로 우선 안정성 검사 하지 않고 컴파일한 다음 코드 실험이 끝나고 타입 검사를 진행한다. )
 TypeScript는 전체 프로젝트를 컴파일 하지만 Babel은 한번에 하나의 파일만 컴파일 한다.
+
+1.설치
+npx create-react-app my-app --template typescript
